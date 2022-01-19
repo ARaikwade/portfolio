@@ -381,7 +381,10 @@
       })
         .then(function (message) {
           alert("mail sent successfully")
-        });
+        })
+      .catch(function (error) {
+        alert("mail not sent!!!")
+      });
     }
   </script>
 
